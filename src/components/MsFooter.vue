@@ -1,5 +1,8 @@
 <template>
     <footer>
+        <div id="logo">
+          <img src="../assets/author-logo-round-small.png" alt="logo_footer">
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-3">
               <ul> 
@@ -98,11 +101,17 @@ export default {
 <style scoped lang="scss">
     // debug
     footer{
-        
+        position: relative;
         padding: 50px;
         background-image: url(../assets/footer-3.jpg);
         background-size: cover;
         color: white;
+        #logo{
+          position: absolute;
+          img{
+            width: 100px;
+          }
+        }
         ul{
           font-weight: bold;
         } li {
