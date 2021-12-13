@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <!-- header  -->
-    <msHeader />
+    <msHeader 
+      :infoNav ="this.navHeader"
+    />
 
     <!-- main  -->
     <msMain />
@@ -29,15 +31,36 @@ export default {
   data(){
   return {
     navHeader : 
-      {
-        home : "Home",
-        aboutMe : "About Me",
-        testimonials : "Testimonials",
-        myBlog : "My Blog",
-        meetups : "Meetups",
-        shop : "Shop",
-        contactMe : "Contact Me"
-      },
+      [
+        {
+          link : "Home",
+          activeLink : true
+        },
+        {
+          link : "About Me",
+          activeLink : false
+        },
+        {
+          link : "Testimonials",
+          activeLink : false
+        },
+        {
+          link : "My Blog",
+          activeLink : false
+        },
+        {
+          link : "Meetups",
+          activeLink : false
+        },
+         {
+          link : "Shop",
+          activeLink : false
+        },
+         {
+          link : "Contact Me",
+          activeLink : false
+        },
+       ] ,
     logo : "",
     // NavFooter
     textDescription : "Vivamus suscipit tortor eget felis porttitor volupat. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat",
