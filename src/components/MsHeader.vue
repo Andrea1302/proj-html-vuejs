@@ -1,14 +1,14 @@
 <template>
-    <header class="container">
+    <header class="container-fluid">
 
         <!-- layover sfondo  -->
         <div id="layover">
             <!-- navbar with logo e links -->
-            <div class="row justify-content-around" id="navbar">
+            <div class="row justify-content-between" id="navbar">
                 <!-- logo  -->
                 <img class="col-lg-2" src="../assets/author-logo-round.png" alt="logo">
                 <!-- links -->
-                <nav class="col-lg-6">
+                <nav class="col-lg-7">
                     <ul>
                         <li v-for="info,i in infoNav" :key="i">
                             <a href="#" :class="info.activeLink ? 'active' : '' " @click="activePage(info)">
@@ -23,6 +23,7 @@
                     </ul> 
                 </nav>
             </div>
+            <msJumbrotron />
         </div>
         
         
@@ -30,8 +31,15 @@
 </template>
 
 <script>
+// import jumbotron 
+import msJumbrotron from '../components/MsJumbotron.vue';
+
+
 export default {
   name: 'msHeader',
+  components: {
+    msJumbrotron,
+  },
   props: {
     infoNav: Array
   },
@@ -63,7 +71,6 @@ export default {
     header{
         padding: 0;
         width: 100%;
-        height: 550px;
         background-size: cover;
         background-position: top;
         background-image: url(../assets/hero-07-2x.jpg);
@@ -72,6 +79,9 @@ export default {
             background: linear-gradient(0deg, rgba(0,0,0,0.919765406162465) 0%, rgba(0,0,0,0.4861519607843137) 35%, rgba(0,0,0,0.2956757703081232) 100%);
             height: 100%;
         }
+    }
+    #navbar{
+        padding: 0 50px;
     }
     nav{
         
