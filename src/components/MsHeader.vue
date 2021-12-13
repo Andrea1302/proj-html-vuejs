@@ -23,6 +23,28 @@
                     </ul> 
                 </nav>
             </div>
+            <div id="info_shop">
+                <div id="demos">
+                    <button class="info_shop">
+                        <i class="fas fa-archive"></i>
+                        <div>
+                            Demos
+                        </div>
+                    </button>
+                </div>
+                
+
+                <button class="info_shop">
+                    <span  id="onSale">
+                        39
+                    </span>
+                    <div>
+                        <span>
+                            On Sale
+                        </span> 
+                    </div>
+                </button>
+            </div>
             <msJumbrotron />
         </div>
         
@@ -78,6 +100,25 @@ export default {
             background: rgb(0,0,0);
             background: linear-gradient(0deg, rgba(0,0,0,0.919765406162465) 0%, rgba(0,0,0,0.4861519607843137) 35%, rgba(0,0,0,0.2956757703081232) 100%);
             height: 100%;
+        }
+    }
+
+    // info shop ù
+    #info_shop{
+        position: absolute;
+        right : 10px;
+        top : 80px
+    }
+    .info_shop{
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+        border-style: none;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        #onSale{
+            font-size: 1.1rem;
+            color: green;
         }
     }
     #navbar{
