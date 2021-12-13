@@ -11,7 +11,7 @@
                 <nav class="col-lg-6">
                     <ul>
                         <li v-for="info,i in infoNav" :key="i">
-                            <a href="#" :class="info.activeLink ? 'active' : '' ">
+                            <a href="#" :class="info.activeLink ? 'active' : '' " @click="activePage(info)">
                                 {{info.link}}
                             </a>
                         </li>
@@ -34,6 +34,20 @@ export default {
   name: 'msHeader',
   props: {
     infoNav: Array
+  },
+  data(){
+     return {
+    
+     } 
+  },
+  methods : {
+      activePage(object){
+          if ( object.activeLink === false ) {
+              object.activeLink = true 
+          } else if (object.activeLink === true) {
+              object.activeLink = false
+          }
+      }
   }
 }
 </script>
