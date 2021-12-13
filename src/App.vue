@@ -1,16 +1,30 @@
 <template>
   <div id="app">
-    <msHeader/>
+    <!-- header  -->
+    <msHeader />
+
+    <!-- main  -->
+    <msMain />
+
+    <!-- Footer  -->
+    <msFooter />
+
   </div>
 </template>
 
 <script>
-import msHeader from './components/MsHeader.vue'
+import msHeader from './components/MsHeader.vue';
+import msFooter from './components/MsFooter.vue';
+import msMain from './components/MsMain.vue';
+
+
 
 export default {
   name: 'App',
   components: {
     msHeader,
+    msFooter,
+    msMain
   },
   data(){
   return {
