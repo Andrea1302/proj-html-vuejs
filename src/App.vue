@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    
+    <msHeader/>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import msHeader from './components/MsHeader.vue'
 
 export default {
   name: 'App',
   components: {
-
+    msHeader,
   },
   data(){
   return {
