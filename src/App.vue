@@ -9,7 +9,10 @@
     <msMain />
 
     <!-- Footer  -->
-    <msFooter />
+    <msFooter 
+      :infoUsefulLinks ="this.links"
+      :infoContact ="this.contact"
+    />
 
   </div>
 </template>
@@ -63,11 +66,10 @@ export default {
        ] ,
     logo : "",
     // NavFooter
-    textDescription : "Vivamus suscipit tortor eget felis porttitor volupat. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat",
     links : ["Latest Books","Upcoming Events","Recent Articles","Business Enquires","Visit My Foundation"],
-    Contact : {
+    contact : {
       address : "63 E. Studebaker Street Bolingbrook, IL 60440",
-      Phone : "(800) 000-0000",
+      phone : "(800) 000-0000",
       mobile : "(800) 000-0000",
       email : "info@your-company.com",
     }

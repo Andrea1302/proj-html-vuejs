@@ -17,7 +17,6 @@ export default {
 <style scoped lang="scss">
 // debug
     main{
-        height: 1000px;
-        background-color: brown;
+        background-color: white;
     }
 </style>
