@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <!-- header  -->
-    <msHeader 
-      :infoNav ="this.navHeader"
-    />
-
+      <msHeader 
+        :infoNav ="this.navHeader"
+      />
+    
     <!-- main  -->
     <msMain />
 
@@ -93,4 +93,5 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 </style>
