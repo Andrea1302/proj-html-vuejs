@@ -19,13 +19,13 @@
                          Donec fringilla runc eu turpis dignissim at euismod sapien tincidunt. Maecenas eleifend congue cursus.
                      </p>
                     <div class="row justify-content-center">
-                        <div class="col-lg-3">
+                        <div class="col">
                             <img class="img_sponsor" src="../assets/audible-logo.png" alt="audible">
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col">
                             <img class="img_sponsor" src="../assets/bn-logo-tall.png" alt="barnes_noble">
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col">
                             <img class="img_sponsor" src="../assets/kindle-logo-tall.png" alt="kindle_fire">
                         </div>
                     </div>
@@ -77,6 +77,6 @@ export default {
     };
 }
 .img_sponsor{
-    max-width: 100%;
+    max-width: 90%;
 }
 </style>
