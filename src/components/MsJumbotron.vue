@@ -131,12 +131,12 @@ section{
             font-size: .7rem;
         }
         #btn_amazon{
-            border: 1px solid black;
+            border: 1px solid #51bfc7;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
         }
         #btn_appstore{
-            border: 1px solid black;
+            border: 1px solid #51bfc7;
             border-left: none;
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;

@@ -3,19 +3,23 @@
         <moreAbout/>
         <newAudioBook/>
         <crities/>
+        <upcoming />
     </main>
 </template>
 
 <script>
 import moreAbout from "../components/MoreAboutDamon.vue";
 import newAudioBook from "../components/NewAudiobook.vue";
-import crities from "../components/Crities.vue"
+import crities from "../components/Crities.vue";
+import upcoming from "../components/Upcoming.vue"
+
 export default {
   name: 'msMain',
   components : {
     moreAbout,
     newAudioBook,
-    crities
+    crities,
+    upcoming
   },
   props: {
     msg: String
