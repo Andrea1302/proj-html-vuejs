@@ -1,12 +1,16 @@
 <template>
     <main>
-        qui ci sarà il main
+        <moreAbout/>
     </main>
 </template>
 
 <script>
+import moreAbout from "../components/MoreAboutDamon.vue"
 export default {
   name: 'msMain',
+  components : {
+    moreAbout
+  },
   props: {
     msg: String
   }
