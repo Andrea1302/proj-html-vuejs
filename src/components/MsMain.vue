@@ -1,15 +1,18 @@
 <template>
     <main>
         <moreAbout/>
+        <newAudioBook/>
     </main>
 </template>
 
 <script>
 import moreAbout from "../components/MoreAboutDamon.vue"
+import newAudioBook from "../components/NewAudiobook.vue"
 export default {
   name: 'msMain',
   components : {
-    moreAbout
+    moreAbout,
+    newAudioBook
   },
   props: {
     msg: String
@@ -19,8 +22,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-// debug
-    main{
-        background-color: white;
-    }
+
 </style>
