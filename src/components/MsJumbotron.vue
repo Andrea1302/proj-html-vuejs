@@ -75,6 +75,7 @@ section{
     p{
         font-weight: bold;
         font-size: 1.8rem;
+        font-family: serif;
     }
     cite{
         color: #bec6be;
