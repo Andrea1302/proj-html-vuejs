@@ -119,11 +119,13 @@ export default {
         }
         ul{
           font-weight: bold;
+          font-family: serif;
         } li {
           font-size: .7rem;
           margin: 12px 0;
           list-style: none;
           padding: 0;
+          font-family: sans-serif;
           .arrow_right{
             margin-right: 10px;
           }

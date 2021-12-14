@@ -61,9 +61,10 @@ export default {
     justify-content: center;
     align-items: center;
     h3{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: white;
         font-weight: bold;
+        font-family: serif;
     }
     h4{
         font-size: .7rem;
