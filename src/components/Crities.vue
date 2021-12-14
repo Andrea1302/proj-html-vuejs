@@ -22,7 +22,7 @@
 
         <!-- Card and description  -->
 
-        <div class="row justify-content-between">
+        <div class="row justify-content-around">
             <div class="col-lg-6" id="card_testimoniance">
                 <h3>
                     Best Author Of His Generation
