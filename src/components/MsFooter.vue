@@ -4,6 +4,8 @@
           <img src="../assets/author-logo-round-small.png" alt="logo_footer">
         </div>
         <div class="row justify-content-center">
+
+          <!-- About me  -->
             <div class="col-lg-3">
               <ul> 
                 ABOUT ME
@@ -12,6 +14,8 @@
                 </li>
               </ul>
             </div>
+
+            <!-- Useful Links  -->
             <div class="col-lg-3">
               <ul>
                 USEFUL LINKS
@@ -23,6 +27,7 @@
               </ul>
             </div>
               
+            <!-- Contact  -->
             <div class="col-lg-3">
               <ul>
                 CONTACT INFO 
@@ -80,6 +85,8 @@
               </ul>
             </div>
         </div>
+
+        <!-- Copyright  -->
         <div id="copyright" class="text-center">
           &#169; Copyright 2012 - 2020 | Avada Theme by <a href="#">Theme Fusion</a> | All Rights Reserved | Powered by <a href="#">WordPress</a>
         </div>
@@ -97,9 +104,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    // debug
     footer{
         position: relative;
         padding: 50px;

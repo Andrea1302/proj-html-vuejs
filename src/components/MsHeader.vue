@@ -7,6 +7,7 @@
             <div class="row justify-content-between" id="navbar">
                 <!-- logo  -->
                 <img class="col-lg-2" src="../assets/author-logo-round.png" alt="logo">
+
                 <!-- links -->
                 <nav class="col-lg-7">
                     <ul>
@@ -23,6 +24,9 @@
                     </ul> 
                 </nav>
             </div>
+
+
+            <!-- buy  -->
             <div id="info_shop">
                 <div id="demos">
                     <button class="info_shop">
@@ -36,6 +40,7 @@
 
                 <button class="info_shop">
                     <span  id="onSale">
+                        <sup>$</sup>
                         39
                     </span>
                     <div>
@@ -112,20 +117,21 @@ export default {
     .info_shop{
         width: 40px;
         height: 40px;
-        font-size: 10px;
+        font-size: 8px;
         border-style: none;
         margin-bottom: 5px;
         border-radius: 5px;
         #onSale{
             font-size: 1.1rem;
-            color: green;
+            color: rgb(11, 179, 100);
         }
     }
+
     #navbar{
         padding: 0 50px;
     }
+
     nav{
-        
         color: white;
         ul{
             display: flex;
