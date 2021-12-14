@@ -4,6 +4,7 @@
         <newAudioBook/>
         <crities/>
         <upcoming />
+        <subscribe/>
     </main>
 </template>
 
@@ -11,7 +12,8 @@
 import moreAbout from "../components/MoreAboutDamon.vue";
 import newAudioBook from "../components/NewAudiobook.vue";
 import crities from "../components/Crities.vue";
-import upcoming from "../components/Upcoming.vue"
+import upcoming from "../components/Upcoming.vue";
+import subscribe from "../components/Subscribe.vue"
 
 export default {
   name: 'msMain',
@@ -19,7 +21,8 @@ export default {
     moreAbout,
     newAudioBook,
     crities,
-    upcoming
+    upcoming,
+    subscribe
   },
   props: {
     msg: String
