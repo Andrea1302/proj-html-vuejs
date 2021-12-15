@@ -129,6 +129,7 @@ export default {
         height: 350px;
         border-bottom-right-radius: 30px;
         margin: 0 10px;
+
     }
 }
 

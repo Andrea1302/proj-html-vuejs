@@ -144,4 +144,9 @@ section{
         }
     }
 }
+
+// hover 
+.btn_latest_book:hover{
+background-color:#51bfc746 ;
+}
 </style>
