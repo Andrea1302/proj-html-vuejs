@@ -9,10 +9,10 @@
         </h5>
 
         <!-- Cards  -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-between">
 
             <!-- Card 1 -->
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <img class="img_upcoming" src="../assets/event-05-800x479.jpg" alt="chicago">
                 <div class="contenitore_description">
                     <h6 class="text-center">
@@ -25,7 +25,7 @@
             </div>
 
             <!-- Card 2  -->
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <img class="img_upcoming"  src="../assets/event-04-800x479.jpg" alt="Amanda">
                 <div class="contenitore_description">
                     <h6 class="text-center">
@@ -39,7 +39,7 @@
 
 
             <!-- Card 3  -->
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                     <img class="img_upcoming"  src="../assets/event-07-800x479.jpg" alt="Book">
                 <div class="contenitore_description">
                     <h6 class="text-center">
