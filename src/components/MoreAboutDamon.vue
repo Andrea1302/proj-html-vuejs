@@ -25,19 +25,19 @@
 
         <!-- sponsor -->
         <div class="row justify-content-center" id="sponsor">
-            <div class="col-lg-2">
+            <div class="col-2">
                 <img class="img_sponsor" src="../assets/ebay-logotan-2x-200x66.png" alt="ebay">
             </div>
 
-             <div class="col-lg-2">
+             <div class="col-2">
                 <img class="img_sponsor" src="../assets/audible-logotan-2x-200x66.png" alt="audible">
             </div>
 
-             <div class="col-lg-2">
+             <div class="col-2">
                 <img class="img_sponsor" src="../assets/bb-logotan-2x-200x66.png" alt="barnes_noble">
             </div>
 
-             <div class="col-lg-2">
+             <div class="col-2">
                 <img class="img_sponsor" src="../assets/kindlefire-logotan-2x-200x66.png" alt="kindle_fire">
             </div>
 
