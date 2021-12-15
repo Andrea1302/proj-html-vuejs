@@ -82,4 +82,11 @@ export default {
     font-weight: bold;
     font-size: 50px;
 }
+
+// hover
+#more_about{
+    button:hover{
+        background-color: #3e9c90;
+    }
+}
 </style>
