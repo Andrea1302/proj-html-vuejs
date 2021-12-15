@@ -78,6 +78,9 @@ export default {
   },
   methods : {
       activePage(object){
+          this.infoNav.filter((obj)=>{
+              obj.activeLink = false
+          })
           if ( object.activeLink === false ) {
               object.activeLink = true 
           } else if (object.activeLink === true) {
