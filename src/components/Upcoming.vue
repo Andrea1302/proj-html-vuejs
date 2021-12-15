@@ -1,6 +1,7 @@
 <template>
-    <section id="upcoming">
-        <h3 class="text-center">
+    <section>
+        <div class="container" id="upcoming">
+            <h3 class="text-center">
             Upcoming Events
         </h3>
         <h5 class="text-center">
@@ -50,6 +51,7 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 </template>
 
@@ -63,9 +65,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+section{
+    background-color: #f3ece3;
+}
 #upcoming{
     padding: 50px 0;
-    background-color: #f3ece3;
     .contenitore_description{
         background-color: white;
         padding: 10px;
