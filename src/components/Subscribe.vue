@@ -51,12 +51,12 @@ export default {
     h3{
         color: white;
         font-family: serif;
-        font-weight: bold;
-        font-size: 1.3rem;
+        font-weight:bold;
+        font-size: 1.4rem;
     }
     h4{
-        font-size: .7rem;
-        color: #e1aa40;
+        font-size: .8rem;
+        color: #f3b329;
         font-weight: bold;
     }
     #container_subscribe{
