@@ -12,7 +12,7 @@
                 </div>
             </div>
             <!-- Read  -->
-            <div id="button">
+            <div>
                 <button>
                     Read All Testimonials
                 </button>
@@ -99,7 +99,7 @@ export default {
         margin-bottom: 20px;
     }        
     button{
-         position: absolute;
+        position: absolute;
         top: 40px;
         right: 0;
         color: white;
@@ -107,7 +107,7 @@ export default {
         padding: 7px 0;
         width: 130px;
         border-radius: 5px;
-        background-color: #e1aa40;
+        background-color:#f3b329 ;
         border-style: none;
         font-size: .6rem;
     }
@@ -173,4 +173,12 @@ export default {
         font-weight: normal;
     }
 }
+
+// hover 
+#crities{
+    button:hover{
+    background-color: #e1aa40;
+    }
+}
+
 </style>
