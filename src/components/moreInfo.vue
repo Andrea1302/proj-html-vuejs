@@ -100,8 +100,9 @@ export default {
             margin-bottom: 0;
         }
         h5{
+            font-weight: bold;
             color: #e1aa40;
-            font-size: .9rem;
+            font-size: .8rem;
         }
     }
     #about_me_card{
