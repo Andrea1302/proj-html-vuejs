@@ -126,6 +126,7 @@ section{
     #buy_on{
         width: 100%;
         .btn_latest_book{
+            background-color: #51bfc71c;
             width: 50%;
             border-style: none;
             padding: 7px 0;
@@ -146,7 +147,12 @@ section{
 }
 
 // hover 
-.btn_latest_book:hover{
-background-color:#51bfc746 ;
+#latest_book{
+    #buy_on{
+        .btn_latest_book:hover{
+            background-color: white;
+        }
+    }
 }
+
 </style>
