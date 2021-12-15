@@ -13,6 +13,7 @@
     <msFooter 
       :infoUsefulLinks ="this.links"
       :infoContact ="this.contact"
+      :logopathFooter ="this.logo"
     />
 
   </div>

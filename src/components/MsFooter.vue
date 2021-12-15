@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div id="logo">
-          <img src="../assets/author-logo-round-small.png" alt="logo_footer">
+          <img :src="require(`../assets/${this.logopathFooter}`)" alt="logo_footer">
         </div>
         <div class="row justify-content-center">
 
@@ -99,7 +99,8 @@ export default {
   name: 'msFooter',
   props: {
     infoUsefulLinks : Array,
-    infoContact : Object
+    infoContact : Object,
+    logopathFooter : String,
   }
 }
 </script>
