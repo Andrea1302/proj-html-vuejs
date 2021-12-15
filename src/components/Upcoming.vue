@@ -1,5 +1,5 @@
 <template>
-    <section id="upcoming" class="container">
+    <section id="upcoming">
         <h3 class="text-center">
             Upcoming Events
         </h3>
@@ -8,51 +8,45 @@
         </h5>
 
         <!-- Cards  -->
-        <div class="row">
+        <div class="row justify-content-center">
 
             <!-- Card 1 -->
-            <div class="col-lg-4">
-                <div class="layover_hover">
-                    <img class="img_upcoming" src="../assets/event-05-800x479.jpg" alt="chicago">
-                    <div class="contenitore_description">
-                        <h6 class="text-center">
-                            Chicago Book Signing
-                        </h6>
-                        <p class="text-center">
-                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a nulla.
-                        </p>
-                    </div>
+            <div class="col-lg-3">
+                <img class="img_upcoming" src="../assets/event-05-800x479.jpg" alt="chicago">
+                <div class="contenitore_description">
+                    <h6 class="text-center">
+                        Chicago Book Signing
+                    </h6>
+                    <p class="text-center">
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a nulla.
+                    </p>
                 </div>
             </div>
 
             <!-- Card 2  -->
-            <div class="col-lg-4">
-                <div class="layover_hover">
-                     <img class="img_upcoming"  src="../assets/event-04-800x479.jpg" alt="Amanda">
-                     <div class="contenitore_description">
-                         <h6 class="text-center">
-                            Chicago Book Signing
-                        </h6>
-                        <p class="text-center">
-                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Preaesent sapien massa, convallis a pellentesque nec, egestas
-                        </p>
-                     </div>
+            <div class="col-lg-3">
+                <img class="img_upcoming"  src="../assets/event-04-800x479.jpg" alt="Amanda">
+                <div class="contenitore_description">
+                    <h6 class="text-center">
+                        Chicago Book Signing
+                    </h6>
+                    <p class="text-center">
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Preaesent sapien massa, convallis a pellentesque nec, egestas
+                    </p>
                 </div>
             </div>
 
 
             <!-- Card 3  -->
-            <div class="col-lg-4">
-                <div class="layover_hover">
-                     <img class="img_upcoming"  src="../assets/event-07-800x479.jpg" alt="Book">
-                    <div class="contenitore_description">
-                        <h6 class="text-center">
-                            Chicago Book Signing
-                        </h6>
-                        <p class="text-center">
-                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a nulla.
-                        </p>
-                    </div>
+            <div class="col-lg-3">
+                    <img class="img_upcoming"  src="../assets/event-07-800x479.jpg" alt="Book">
+                <div class="contenitore_description">
+                    <h6 class="text-center">
+                        Chicago Book Signing
+                    </h6>
+                    <p class="text-center">
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a nulla.
+                    </p>
                 </div>
             </div>
         </div>
@@ -70,15 +64,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #upcoming{
-    .layover_hover{
-        padding: 30px;
-    }
+    padding: 50px 0;
+    background-color: #f3ece3;
     .contenitore_description{
         background-color: white;
         padding: 10px;
     }
     
-    padding: 30px 0;
+    
     h3{
         font-family: serif;
         font-weight: bold;
@@ -101,10 +94,9 @@ export default {
 }
 
 // hover 
- .layover_hover:hover{
-    background-color: #ffdbc1;
-}
-.layover_hover:hover img{
+#upcoming{
+    .img_upcoming:hover{
     opacity: .6;
+    }
 }
 </style>
