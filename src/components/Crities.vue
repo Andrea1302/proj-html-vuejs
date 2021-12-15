@@ -116,7 +116,6 @@ export default {
         border-style: none;
         font-size: .6rem;
     }
-
     // card 
     #card_testimoniance{
         padding: 60px;

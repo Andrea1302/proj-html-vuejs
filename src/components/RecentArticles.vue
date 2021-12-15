@@ -1,29 +1,28 @@
 <template>
   <section>
     <div class="container" id="recent_articles">
-      <div class="row">
-              <!-- title  -->
-              <div class="col">
-                  <h5  id="title">
-                      Recent Articles
-                  </h5>
-                  <div id="subtitle">
-                      READ THE LATEST ENTRIES
-                  </div>
-              </div>
-              <!-- Read  -->
-              <div id="button">
-                  <button>
-                      All Articles
-                  </button>
-              </div>
-              
-          </div>
+           <div class="row justify-content-center">
+            <!-- title  -->
+            <div class="col-lg-7 px-0">
+                <h5  id="title">
+                     What The Crities Say
+                </h5>
+                <div id="subtitle">
+                    TESTIMONIALS FROM AROUND THE WORLD
+                </div>
+            </div>
+            <!-- Read  -->
+            <div class="col-lg-2" id="btn_read">
+                <button>
+                    Read All Testimonials
+                </button>
+            </div>
+        </div>
 
           <!-- Card and description  -->
 
-          <div class="row justify-content-between">
-              <div class="col-lg-7" id="principal_card">
+          <div class="row justify-content-center"  id="card_description">
+              <div class="col-lg-6" id="principal_card">
                 <img class="img_recent_articles" src="../assets/20-Tips-600x353.jpg" alt="book">
 
                 <div id="creativity_tips">
@@ -84,6 +83,9 @@ section{
 #recent_articles{
     padding: 60px 0;
     position: relative;
+    #card_description{
+      margin-top: 30px;
+    }
     #title{
         font-weight: bold;
         font-family: serif;
@@ -91,21 +93,21 @@ section{
     #subtitle{
         font-size: .7rem;
         color: #3da698;
-        margin-bottom: 50px;
     }
     #creativity_tips{
       margin-top: 20px;
     }      
+    #btn_read{
+        display: flex;
+        align-items: center;
+    }      
     button{
-        position: absolute;
-        top: 70px;
-        right: 0;
         color: white;
         font-weight: bold;
         padding: 7px 0;
-        width: 130px;
+        width: 100%;
         border-radius: 5px;
-        background-color: #e1aa40;
+        background-color:#f3b329 ;
         border-style: none;
         font-size: .6rem;
     }
@@ -120,6 +122,7 @@ section{
   #principal_card{
     padding: 30px;
     background-color: white;
+    margin-right: 30px;
   }
   #secondary_card{
     padding: 30px;
