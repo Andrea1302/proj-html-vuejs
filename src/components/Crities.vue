@@ -1,9 +1,9 @@
 <template>
     <section class="container" id="crities">
         
-        <div class="row">
+        <div class="row justify-content-center">
             <!-- title  -->
-            <div class="col">
+            <div class="col-lg-9 px-0">
                 <h5  id="title">
                      What The Crities Say
                 </h5>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <!-- Read  -->
-            <div>
+            <div class="col-lg-2" id="btn_read">
                 <button>
                     Read All Testimonials
                 </button>
@@ -22,7 +22,7 @@
 
         <!-- Card and description  -->
 
-        <div class="row justify-content-around">
+        <div class="row justify-content-center">
             <div class="col-lg-6" id="card_testimoniance">
                 <h3>
                     Best Author Of His Generation
@@ -46,10 +46,11 @@
                     <img class="logo" src="https://greenlee.iastate.edu/wp-content/uploads/sites/186/2019/10/t_logo_2048_black.png" alt="ny_times_logo">
                     Justine Killpatrick, <span>The New York Times</span>
                 </cite>
+                
             </div>
 
             <!-- other testimoniance  -->
-            <div class="col-lg-5">
+            <div class="col-lg-5" id="other_testimoniance">
                 <div class="other_mini_card">
                      <h5 class="text-center">
                         A True Masterpiece, Bravo!
@@ -58,8 +59,11 @@
                         Nulla quis lorem ut libero malesuada feugiat.Vivamous magna justo, lacinia eget consectur sed, convallis at tellus. Vivamus suscipt tortor eget felis porttitor voluptat. Nulla quis Lorem ut libero malesuada feug at.
                     </p>
                 </div>
-                <img class="logo_mini_card" src="https://img.favpng.com/15/4/19/the-guardian-guardian-media-group-theguardian-com-news-journalism-png-favpng-PMAjkdA8PkC7NrdUr4kXAskeK.jpg" alt="logo_the_guardian">
-                <cite class="citazione">Gerarld Hendley, <span class="journal"> The Guardian </span> </cite>
+                <div id="first_cit">   
+                    <img class="logo_mini_card" src="https://img.favpng.com/15/4/19/the-guardian-guardian-media-group-theguardian-com-news-journalism-png-favpng-PMAjkdA8PkC7NrdUr4kXAskeK.jpg" alt="logo_the_guardian">
+                    <cite class="citazione">Gerarld Hendley, <span class="journal"> The Guardian </span> </cite>
+                </div>
+                
                 <div class="other_mini_card">
                      <h5 class="text-center">
                         A Unique View On The World
@@ -97,15 +101,16 @@ export default {
         font-size: .7rem;
         color: #3da698;
         margin-bottom: 20px;
-    }        
+    }  
+    #btn_read{
+        display: flex;
+        align-items: center;
+    }      
     button{
-        position: absolute;
-        top: 40px;
-        right: 0;
         color: white;
         font-weight: bold;
         padding: 7px 0;
-        width: 130px;
+        width: 100%;
         border-radius: 5px;
         background-color:#f3b329 ;
         border-style: none;
@@ -142,10 +147,15 @@ export default {
     }
 
     // minicard
+    #other_testimoniance{
+        padding-left: 30px;
+        #first_cit{
+            margin-bottom: 20px;
+        }
+    }
     .logo_mini_card{
         width: 13%;
         margin-right: 15px;
-        margin-bottom: 30px;
     }
     .logo_mini_card_2{
         width: 9%;
@@ -153,7 +163,6 @@ export default {
     }
     .other_mini_card{
         padding: 30px;
-        width: 80%;
         background-color: #f3ece3;
         margin-bottom: 10px;
         h5{
