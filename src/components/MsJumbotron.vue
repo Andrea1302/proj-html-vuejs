@@ -155,4 +155,14 @@ section{
     }
 }
 
+@media all and ( max-width : 1200px ){
+    #jumbotron{
+        display: none;
+    }
+    #latest_book{
+        position: relative;
+        width: 100%;
+    }
+}
+
 </style>

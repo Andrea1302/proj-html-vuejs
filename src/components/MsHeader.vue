@@ -6,7 +6,7 @@
             <!-- navbar with logo e links -->
             <div class="row justify-content-between" id="navbar">
                 <!-- logo  -->
-                <img class="col-lg-2" :src="require(`../assets/${logopath}`)" alt="logo">
+                <img  id="logo" class="col-2" :src="require(`../assets/${logopath}`)" alt="logo">
 
                 <!-- links -->
                 <nav class="col-lg-7">
@@ -112,7 +112,7 @@ export default {
         }
     }
 
-    // info shop ù
+    // info shop 
     #info_shop{
         position: absolute;
         right : 10px;
@@ -152,4 +152,19 @@ export default {
             }
         }
     }
+
+@media all and ( max-width:1200px){
+    #logo{
+        display: none;
+    }
+    nav{
+        ul{
+            flex-direction: column;
+        }
+    }
+    #info_shop{
+        position: relative;
+        display: none;
+    }
+}
 </style>
