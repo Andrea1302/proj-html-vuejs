@@ -1,6 +1,5 @@
 <template>
-    <section class="container-fluis" id="more_about">
-
+    <section class="container-fluid" id="more_about">
         <!-- Title  -->
         <div class="text-center">
             <div class="col">
