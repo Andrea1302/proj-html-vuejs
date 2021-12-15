@@ -131,5 +131,11 @@ export default {
         margin: 0 10px;
     }
 }
+
+// hover 
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px 0px black;
+}
 </style>
 
