@@ -99,16 +99,17 @@ export default {
         margin-bottom: 20px;
     }        
     button{
-        position: absolute;
+         position: absolute;
         top: 40px;
         right: 0;
         color: white;
         font-weight: bold;
-        padding: 5px 20px;
-        border-radius: 2px;
+        padding: 7px 0;
+        width: 130px;
+        border-radius: 5px;
         background-color: #e1aa40;
         border-style: none;
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     // card 
