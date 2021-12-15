@@ -6,7 +6,7 @@
             <!-- navbar with logo e links -->
             <div class="row justify-content-between" id="navbar">
                 <!-- logo  -->
-                <img class="col-lg-2" src="../assets/author-logo-round.png" alt="logo">
+                <img class="col-lg-2" :src="require(`../assets/${logopath}`)" alt="logo">
 
                 <!-- links -->
                 <nav class="col-lg-7">
@@ -68,7 +68,8 @@ export default {
     msJumbrotron,
   },
   props: {
-    infoNav: Array
+    infoNav: Array,
+    logopath : String,
   },
   data(){
      return {

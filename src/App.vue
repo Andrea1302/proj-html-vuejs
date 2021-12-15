@@ -3,6 +3,7 @@
     <!-- header  -->
       <msHeader 
         :infoNav ="this.navHeader"
+        :logopath ="this.logo"
       />
     
     <!-- main  -->
@@ -64,7 +65,7 @@ export default {
           activeLink : false
         },
        ] ,
-    logo : "",
+    logo : "author-logo-round.png",
     // NavFooter
     links : ["Latest Books","Upcoming Events","Recent Articles","Business Enquires","Visit My Foundation"],
     contact : {
