@@ -14,6 +14,7 @@
       :infoUsefulLinks ="this.links"
       :infoContact ="this.contact"
       :logopathFooter ="this.logo"
+      :infoAboutMe ="this.aboutMe"
     />
 
   </div>
@@ -74,7 +75,8 @@ export default {
       phone : "(800) 000-0000",
       mobile : "(800) 000-0000",
       email : "info@your-company.com",
-    }
+    },
+    aboutMe : "Vivamus suscipit tortor eget felis porttitor volupat. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat"
         
       
     

@@ -10,7 +10,7 @@
               <ul> 
                 ABOUT ME
                 <li>
-                  Vivamus suscipit tortor eget felis porttitor volupat. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat
+                  {{this.infoAboutMe}}
                 </li>
               </ul>
             </div>
@@ -101,6 +101,7 @@ export default {
     infoUsefulLinks : Array,
     infoContact : Object,
     logopathFooter : String,
+    infoAboutMe : String
   }
 }
 </script>
