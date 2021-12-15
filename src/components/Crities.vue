@@ -145,21 +145,23 @@ export default {
     .logo_mini_card{
         width: 13%;
         margin-right: 15px;
+        margin-bottom: 30px;
     }
     .logo_mini_card_2{
         width: 9%;
         margin-right: 15px;
-        margin-left: 9px;
     }
     .other_mini_card{
+        padding: 30px;
         width: 80%;
-        margin: 30px auto;
+        background-color: #f3ece3;
+        margin-bottom: 10px;
         h5{
             font-weight: bold;
             font-family: serif;
         }
         p{
-            color: #7c6e60;
+            color: #868586;
             font-size: .8rem;
         }
     }

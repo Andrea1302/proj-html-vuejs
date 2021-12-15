@@ -1,5 +1,5 @@
 <template>
-    <section class="container" id="more_about">
+    <section class="container-fluis" id="more_about">
 
         <!-- Title  -->
         <div class="text-center">
@@ -25,7 +25,7 @@
         </div>
 
         <!-- sponsor -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="sponsor">
             <div class="col-lg-2">
                 <img class="img_sponsor" src="../assets/ebay-logotan-2x-200x66.png" alt="ebay">
             </div>
@@ -59,7 +59,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 #more_about{
-    padding: 50px 0 ;
+    padding-top: 50px;
     button{
         padding: 5px 10px;
         border-style: none;
@@ -70,6 +70,10 @@ export default {
         font-weight: bold;
         margin-bottom: 100px;
     }
+    #sponsor{
+        padding: 30px 0 ;
+        background-color: #f3ece3;
+    }
     // img 
     .img_sponsor{
         width: 70%;
@@ -78,7 +82,7 @@ export default {
 // Titolo 
  h2{
     font-family: Shalimar;
-    color: #e1aa40;
+    color: #f3b329;
     font-weight: bold;
     font-size: 50px;
 }
